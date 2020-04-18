@@ -80,13 +80,17 @@ header {
   z-index: 10;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
 .header-left {
   float: left;
+}
+
+.header-left span {
+  color: #f1f1f1;
+  line-height: 65px;
+  font-size: 20px;
+  padding-right: 10px;
+  float: right;
+  display: block;
 }
 
 .header-right {
@@ -107,8 +111,6 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-
-
 .about-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
@@ -116,7 +118,6 @@ header {
   background-color: #f7f7f7;
   text-align: center;
 }
-
 
 .heading {
   padding-top: 80px;
