@@ -93,6 +93,14 @@ header {
   display: block;
 }
 
+.menu-icon {
+  color: #f1f1f1;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+  float:right;
+}
+
 .header-right {
   float: right;
   margin-right: -25px;

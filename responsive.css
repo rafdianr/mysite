@@ -1,0 +1,42 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  /* Add CSS for header-right */
+  .header-right{
+    display:none;
+  }
+  
+  /* Add CSS for menu-icon */
+  .menu-icon{
+    display:block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+  }
+  
+}
